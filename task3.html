@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie World</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+            margin: 0;
+        }
+
+        header {
+            background-color: rgb(75, 54, 54);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        h2 {
+            text-align: center;
+            color: red;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .movie {
+            background-color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 0 5px gray;
+        }
+
+        .movie img {
+            width: 100%;
+            height: 250px;
+            border-radius: 8px;
+        }
+
+        .movie h3 {
+            color: darkred;
+        }
+
+        button {
+            background-color: red;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🎬 MOVIE WORLD</h1>
+    <p>Explore Your Favourite Movies</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Movies</a>
+    <a href="#">Genres</a>
+    <a href="#">Contact</a>
+</nav>
+
+<h2>Latest Movies</h2>
+
+<div class="container">
+
+    <div class="movie">
+        <img src="https://placehold.co/300x400/222/white?text=Movie+1">
+        <h3>Action Hero</h3>
+        <p>Genre: Action</p>
+        <p>Release: 2026</p>
+        <p>Cast: John, David</p>
+        <p>A hero fights to save his city.</p>
+        <p>⭐ Rating: 8.5/10</p>
+        <button>View Movie</button>
+    </div>
+
+    <div class="movie">
+        <img src="https://placehold.co/300x400/333/white?text=Movie+2">
+        <h3>Love Story</h3>
+        <p>Genre: Romance</p>
+        <p>Release: 2025</p>
+        <p>Cast: Rahul, Priya</p>
+        <p>A beautiful story about love.</p>
+        <p>⭐ Rating: 9/10</p>
+        <button>View Movie</button>
+    </div>
+
+    <div class="movie">
+        <img src="https://placehold.co/300x400/444/white?text=Movie+3">
+        <h3>Comedy Time</h3>
+        <p>Genre: Comedy</p>
+        <p>Release: 2026</p>
+        <p>Cast: Alex, Sam</p>
+        <p>A fun movie full of laughter.</p>
+        <p>⭐ Rating: 7.5/10</p>
+        <button>View Movie</button>
+    </div>
+
+    <div class="movie">
+        <img src="https://placehold.co/300x400/555/white?text=Movie+4">
+        <h3>Space World</h3>
+        <p>Genre: Science Fiction</p>
+        <p>Release: 2025</p>
+        <p>Cast: Tom, Jack</p>
+        <p>An adventure in outer space.</p>
+        <p>⭐ Rating: 8/10</p>
+        <button>View Movie</button>
+    </div>
+
+</div>
+
+<h2>Critic Reviews</h2>
+<p style="text-align:center;">
+    Great stories, amazing acting and excellent direction!
+</p>
+
+<footer>
+    <p>© 2026 Movie World | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
