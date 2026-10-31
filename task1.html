@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<style>
+* { box-sizing: border-box; scroll-behavior: smooth; }
+body { font-family: Arial; margin: 0; background: #f2f4f8; }
+header { background: #243b55; color: white; text-align: center; padding: 20px; }
+nav { background: #141e30; padding: 12px; text-align: center; }
+nav a { color: white; text-decoration: none; margin: 8px; }
+section { background: white; margin: 20px auto; padding: 20px; width: 85%; border-radius: 10px; animation: fade 1s; }
+h2 { color: #243b55; }
+.profile { text-align: center; background: #dce8f5; }
+.btn { background: #243b55; color: white; padding: 10px; text-decoration: none; }
+footer { background: #141e30; color: white; text-align: center; padding: 15px; }
+@keyframes fade {
+from { opacity: 0; transform: translateY(15px); }
+to { opacity: 1; transform: translateY(0); }
+}
+@media(max-width:600px) {
+section { width: 95%; }
+nav a { display: inline-block; margin: 6px; }
+}
+</style>
+</head>
+<body>
+<header>
+<h1>My Personal Website</h1>
+<p>Welcome to My Portfolio</p>
+</header>
+<nav>
+<a href="#profile">Profile</a>
+<a href="#education">Education</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+<section id="profile" class="profile">
+<h2>Hello, I am bhavya sri</h2>
+<p>B.Tech Student | Future Software Developer</p>
+<p>I love learning new technologies.</p>
+</section>
+<section id="education">
+<h2>Educational Qualifications</h2>
+<p>B.Tech - Your College Name</p>
+<p>Intermediate - Your College Name</p>
+<p>SSC - Your School Name</p>
+</section>
+<section id="skills">
+<h2>Technical Skills</h2>
+<p>Python, HTML, CSS, Java</p>
+</section>
+<section id="hobbies">
+<h2>Hobbies</h2>
+<p>Drawing, Music, Reading, Coding</p>
+</section>
+<section id="projects">
+<h2>My Projects</h2>
+<p>Personal Portfolio Website</p>
+<p>College Home Page</p>
+<p>Python Mini Project</p>
+</section>
+<section id="achievements">
+<h2>Achievements</h2>
+<p>Completed a programming course.</p>
+<p>Participated in college activities.</p>
+</section>
+<section id="resume">
+<h2>My Resume</h2>
+<a class="btn" href="resume.pdf" download>Download Resume</a>
+</section>
+<section id="contact">
+<h2>Contact Information</h2>
+<p>Email: yourname@example.com</p>
+<p>Phone: 9876543210</p>
+<p>Location: Andhra Pradesh, India</p>
+</section>
+<footer>
+<p>© 2026 My Portfolio</p>
+</footer>
+</body>
+</html>
+
