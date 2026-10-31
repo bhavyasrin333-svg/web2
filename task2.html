@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Shopping Store</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: black;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        /* Banner */
+        .banner {
+            background-color: lightblue;
+            text-align: center;
+            padding: 30px;
+        }
+
+        /* Products */
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            width: 200px;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .card img {
+            width: 150px;
+            height: 130px;
+        }
+
+        .price {
+            color: green;
+            font-size: 18px;
+        }
+
+        .discount {
+            color: red;
+        }
+
+        button {
+            background-color: orange;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: lightgreen;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <h2>MY STORE</h2>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Categories</a>
+            <a href="#">Cart</a>
+        </div>
+    </nav>
+
+    <!-- Promotional Banner -->
+    <div class="banner">
+        <h1>Big Shopping Sale!</h1>
+        <h3>Get Up To 50% OFF</h3>
+        <p>Shop your favourite products today!</p>
+    </div>
+
+    <h2 style="text-align:center;">Our Products</h2>
+
+    <!-- Product Grid -->
+    <div class="products">
+
+        <div class="card">
+            <img src="https://placehold.co/150x130?text=Headphones">
+            <h3>Headphones</h3>
+            <p>Category: Electronics</p>
+            <p>Good sound quality.</p>
+            <p class="price">₹999</p>
+            <p class="discount">20% OFF</p>
+            <p>⭐ 4.5 Rating</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://placehold.co/150x130?text=Watch">
+            <h3>Smart Watch</h3>
+            <p>Category: Accessories</p>
+            <p>Stylish digital watch.</p>
+            <p class="price">₹1499</p>
+            <p class="discount">30% OFF</p>
+            <p>⭐ 4.2 Rating</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://placehold.co/150x130?text=Shoes">
+            <h3>Shoes</h3>
+            <p>Category: Fashion</p>
+            <p>Comfortable daily shoes.</p>
+            <p class="price">₹799</p>
+            <p class="discount">15% OFF</p>
+            <p>⭐ 4.3 Rating</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://placehold.co/150x130?text=Bag">
+            <h3>Hand Bag</h3>
+            <p>Category: Fashion</p>
+            <p>Beautiful stylish bag.</p>
+            <p class="price">₹599</p>
+            <p class="discount">25% OFF</p>
+            <p>⭐ 4.6 Rating</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 My Shopping Store</p>
+        <p>Thank You For Shopping!</p>
+    </footer>
+
+</body>
+</html>
